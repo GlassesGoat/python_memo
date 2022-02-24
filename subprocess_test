@@ -1,0 +1,8 @@
+import subprocess
+time = subprocess.run(["date", "+%Y年%m月%y日%H時%M分"])
+print(time)
+
+"""
+サブプロセスとかの話
+https://dev.classmethod.jp/articles/python-subprocess-shell-command/
+"""
